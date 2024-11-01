@@ -1,0 +1,123 @@
+/* Ad Units */
+.vp-alignleft {
+	display: inline;
+	float: left;
+	margin-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.vp-alignright {
+	display: inline;
+	float: right;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.vp-aligncenter {
+	clear: both;
+	display: block;
+	text-align: center;
+	margin: 10px auto;
+}
+
+.fit {
+	margin-left: 0;
+	margin-right: 0	
+}
+/* Columns */
+.vp-column-20 {	width: 32%; } /* 3-Column */
+.vp-column-40 {	width: 66%; }
+.vp-column-15 {	width: 23.5%; } /* 4-Column */
+.vp-column-30 {	width: 49%; }
+.vp-column-45 {	width: 74.5%; }
+.vp-column-12 {	width: 18.4%; } /* 5-Column */
+.vp-column-24 {	width: 38.8%; }
+.vp-column-36 {	width: 59.2%; }
+.vp-column-48 {	width: 79.6%; }
+.vp-column-10 {	width: 15%; } /* 6-Column */
+.vp-column-50 {	width: 83%; }
+.vp-column-5 {	width: 6.5%; } /* 12-Column */
+.vp-column-25 {	width: 40.5%; }
+.vp-column-35 {	width: 57.5%; }
+.vp-column-55 {	width: 91.5%; }
+.vp-column-60 {	width: 100%; } /* Full Width */
+
+.vp-prefix-20 {	padding-left: 34%; } /* 3-Column */
+.vp-prefix-40 {	padding-left: 68%; }
+.vp-prefix-15 {	padding-left: 25.5%; } /* 4-Column */
+.vp-prefix-30 {	padding-left: 51%; }
+.vp-prefix-45 {	padding-left: 76.5%; }
+.vp-prefix-12 {	padding-left: 20.4%; } /* 5-Column */
+.vp-prefix-24 {	padding-left: 40.8%; }
+.vp-prefix-36 {	padding-left: 61.2%; }
+.vp-prefix-48 {	padding-left: 81.6%; }
+.vp-prefix-10 {	padding-left: 17%; } /* 6-Column */
+.vp-prefix-50 {	padding-left: 85%; }
+.vp-prefix-5 {	padding-left: 8.5%; } /* 12-Column */
+.vp-prefix-25 {	padding-left: 42.5%; }
+.vp-prefix-35 {	padding-left: 59.5%; }
+.vp-prefix-55 {	padding-left: 93.5%; }
+
+.vp-suffix-20 {	padding-right: 34%; } /* 3-Column */
+.vp-suffix-40 {	padding-right: 68%; }
+.vp-suffix-15 {	padding-right: 25.5%; } /* 4-Column */
+.vp-suffix-30 {	padding-right: 51%; }
+.vp-suffix-45 {	padding-right: 76.5%; }
+.vp-suffix-12 {	padding-right: 20.4%; } /* 5-Column */
+.vp-suffix-24 {	padding-right: 40.8%; }
+.vp-suffix-36 {	padding-right: 61.2%; }
+.vp-suffix-48 {	padding-right: 81.6%; }
+.vp-suffix-10 {	padding-right: 17%; } /* 6-Column */
+.vp-suffix-50 {	padding-right: 85%; }
+.vp-suffix-5 {	padding-right: 8.5%; } /* 12-Column */
+.vp-suffix-25 {	padding-right: 42.5%; }
+.vp-suffix-35 {	padding-right: 59.5%; }
+.vp-suffix-55 {	padding-right: 93.5%; }
+
+.vp-column {
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.alpha {
+	margin-left: 0;
+}
+
+.omega {
+	margin-right: 0;
+}
+
+/* http://sonspring.com/journal/clearing-floats */
+html body * span.clear,
+html body * div.clear,
+html body * li.clear,
+html body * dd.clear
+{
+	background: none;
+	border: 0;
+	clear: both;
+	display: block;
+	float: none;
+	font-size: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+@media screen and (max-width: 480px) {
+	.vp-column {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;	
+		padding-left: 0;
+		padding-right: 0;		
+	}
+}
